@@ -7,10 +7,10 @@
       "command": "gcc",
       "args": [
         "main.c",
-        "-ID:/libs/SDL2-devel-2.32.8-mingw/i686-w64-mingw32/include",     // Include SDL2 headers
-        "-LD:/libs/SDL2-devel-2.32.8-mingw/i686-w64-mingw32/lib",         // Link SDL2 lib
+        "-ID:/libs/SDL2-devel-2.32.8-mingw/SDL2-2.32.8/i686-w64-mingw32/include",     // Include SDL2 headers
+        "-LD:/libs/SDL2-devel-2.32.8-mingw/SDL2-2.32.8/i686-w64-mingw32/lib",         // Link SDL2 lib
         "-lmingw32", "-lSDL2main", "-lSDL2", // Link libraries
-        "-o", "main.exe"
+        "-o", "build/main.exe"
       ],
       "group": {
         "kind": "build",
