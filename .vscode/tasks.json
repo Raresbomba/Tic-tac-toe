@@ -7,8 +7,8 @@
       "command": "gcc",
       "args": [
         "src/main.c",
-        "-ID:/libs/SDL2-devel-2.32.8-mingw/SDL2-2.32.8/x86_64-w64-mingw32/include",
-        "-LD:/libs/SDL2-devel-2.32.8-mingw/SDL2-2.32.8/x86_64-w64-mingw32/lib",
+        "-ID:/libs/SDL2-2.32.8/x86_64-w64-mingw32/include",
+        "-LD:/libs/SDL2-2.32.8/x86_64-w64-mingw32/lib",
         "-lmingw32", "-lSDL2main", "-lSDL2",
         "-o", "build/main.exe"
       ],
